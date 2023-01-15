@@ -8,7 +8,7 @@ export const ComponentUI = ({
 }: ComponentUIInterface) => {
 
   return <div className="red">
-    <h1>Ai dento: {counter}</h1>
+    <h1>Counter: {counter}</h1>
 
     <button onClick={decrement}>-</button>
     <button onClick={increment}>+</button>
